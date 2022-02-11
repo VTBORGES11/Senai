@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    display: grid;
+    grid-template-areas:     "header header" "nav nav" 
+    "content aside" "footer footer";
+    grid-template-rows: 150px 62px 250px 120px;
+    grid-template-columns: 80% 20%;
+}
